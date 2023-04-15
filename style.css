@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    text-align: center;
+}
+
+h2 {
+    margin: 20px 0;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+input[type=submit] {
+    padding: 10px 40px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: lightslategrey;
+    color: #fff;
+    letter-spacing: 1px;
+}
+
+input[type=text],
+input[type=number]{
+    display: block;
+    margin: 0 auto;
+    border-radius: 5px;
+    border: none;
+    background-color: lightslategrey;
+    color: #fff;
+    padding: 10px 25px;
+    outline: none;
+}
